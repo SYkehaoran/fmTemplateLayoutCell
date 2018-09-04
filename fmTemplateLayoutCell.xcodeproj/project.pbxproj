@@ -10,11 +10,16 @@
 		A6C259FE213D22F100BF699D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C259FD213D22F100BF699D /* AppDelegate.m */; };
 		A6C25A01213D22F100BF699D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A00213D22F100BF699D /* ViewController.m */; };
 		A6C25A04213D22F100BF699D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C25A02213D22F100BF699D /* Main.storyboard */; };
-		A6C25A06213D22F300BF699D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C25A05213D22F300BF699D /* Assets.xcassets */; };
 		A6C25A09213D22F300BF699D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C25A07213D22F300BF699D /* LaunchScreen.storyboard */; };
 		A6C25A0C213D22F300BF699D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A0B213D22F300BF699D /* main.m */; };
 		A6C25A16213D22F300BF699D /* fmTemplateLayoutCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A15213D22F300BF699D /* fmTemplateLayoutCellTests.m */; };
 		A6C25A21213D22F300BF699D /* fmTemplateLayoutCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A20213D22F300BF699D /* fmTemplateLayoutCellUITests.m */; };
+		A6C25A30213D303400BF699D /* fmFeedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A2F213D303400BF699D /* fmFeedTableViewCell.m */; };
+		A6C25A32213D305C00BF699D /* fmFeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C25A31213D305C00BF699D /* fmFeedTableViewCell.xib */; };
+		A6C25A34213D334B00BF699D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A6C25A33213D334B00BF699D /* data.json */; };
+		A6C25A37213D34AF00BF699D /* fmFeedEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A36213D34AF00BF699D /* fmFeedEntity.m */; };
+		A6C25A39213D376D00BF699D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C25A38213D376D00BF699D /* Images.xcassets */; };
+		A6C25A3F213E264900BF699D /* UIView+fm_aligmentRectInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A3E213E264900BF699D /* UIView+fm_aligmentRectInsets.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +46,6 @@
 		A6C259FF213D22F100BF699D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A6C25A00213D22F100BF699D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A6C25A03213D22F100BF699D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A6C25A05213D22F300BF699D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6C25A08213D22F300BF699D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6C25A0A213D22F300BF699D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6C25A0B213D22F300BF699D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 		A6C25A1C213D22F300BF699D /* fmTemplateLayoutCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fmTemplateLayoutCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C25A20213D22F300BF699D /* fmTemplateLayoutCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fmTemplateLayoutCellUITests.m; sourceTree = "<group>"; };
 		A6C25A22213D22F300BF699D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C25A2E213D303400BF699D /* fmFeedTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmFeedTableViewCell.h; sourceTree = "<group>"; };
+		A6C25A2F213D303400BF699D /* fmFeedTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fmFeedTableViewCell.m; sourceTree = "<group>"; };
+		A6C25A31213D305C00BF699D /* fmFeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = fmFeedTableViewCell.xib; sourceTree = "<group>"; };
+		A6C25A33213D334B00BF699D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A6C25A35213D339800BF699D /* fmFeedEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fmFeedEntity.h; sourceTree = "<group>"; };
+		A6C25A36213D34AF00BF699D /* fmFeedEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fmFeedEntity.m; sourceTree = "<group>"; };
+		A6C25A38213D376D00BF699D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A6C25A3D213E264900BF699D /* UIView+fm_aligmentRectInsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+fm_aligmentRectInsets.h"; sourceTree = "<group>"; };
+		A6C25A3E213E264900BF699D /* UIView+fm_aligmentRectInsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+fm_aligmentRectInsets.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +114,23 @@
 		A6C259FB213D22F100BF699D /* fmTemplateLayoutCell */ = {
 			isa = PBXGroup;
 			children = (
+				A6C25A33213D334B00BF699D /* data.json */,
 				A6C259FC213D22F100BF699D /* AppDelegate.h */,
 				A6C259FD213D22F100BF699D /* AppDelegate.m */,
 				A6C259FF213D22F100BF699D /* ViewController.h */,
 				A6C25A00213D22F100BF699D /* ViewController.m */,
+				A6C25A35213D339800BF699D /* fmFeedEntity.h */,
+				A6C25A36213D34AF00BF699D /* fmFeedEntity.m */,
 				A6C25A02213D22F100BF699D /* Main.storyboard */,
-				A6C25A05213D22F300BF699D /* Assets.xcassets */,
 				A6C25A07213D22F300BF699D /* LaunchScreen.storyboard */,
+				A6C25A38213D376D00BF699D /* Images.xcassets */,
 				A6C25A0A213D22F300BF699D /* Info.plist */,
 				A6C25A0B213D22F300BF699D /* main.m */,
+				A6C25A2E213D303400BF699D /* fmFeedTableViewCell.h */,
+				A6C25A2F213D303400BF699D /* fmFeedTableViewCell.m */,
+				A6C25A31213D305C00BF699D /* fmFeedTableViewCell.xib */,
+				A6C25A3D213E264900BF699D /* UIView+fm_aligmentRectInsets.h */,
+				A6C25A3E213E264900BF699D /* UIView+fm_aligmentRectInsets.m */,
 			);
 			path = fmTemplateLayoutCell;
 			sourceTree = "<group>";
@@ -236,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6C25A09213D22F300BF699D /* LaunchScreen.storyboard in Resources */,
-				A6C25A06213D22F300BF699D /* Assets.xcassets in Resources */,
+				A6C25A39213D376D00BF699D /* Images.xcassets in Resources */,
+				A6C25A32213D305C00BF699D /* fmFeedTableViewCell.xib in Resources */,
+				A6C25A34213D334B00BF699D /* data.json in Resources */,
 				A6C25A04213D22F100BF699D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +287,10 @@
 			files = (
 				A6C25A01213D22F100BF699D /* ViewController.m in Sources */,
 				A6C25A0C213D22F300BF699D /* main.m in Sources */,
+				A6C25A30213D303400BF699D /* fmFeedTableViewCell.m in Sources */,
 				A6C259FE213D22F100BF699D /* AppDelegate.m in Sources */,
+				A6C25A3F213E264900BF699D /* UIView+fm_aligmentRectInsets.m in Sources */,
+				A6C25A37213D34AF00BF699D /* fmFeedEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,13 +460,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QYA6ERYV5S;
+				DEVELOPMENT_TEAM = 83XNP5F24Z;
 				INFOPLIST_FILE = fmTemplateLayoutCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.kehaoran.com.fmTemplateLayoutCell;
+				PRODUCT_BUNDLE_IDENTIFIER = www.chinaamc.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,13 +477,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QYA6ERYV5S;
+				DEVELOPMENT_TEAM = 83XNP5F24Z;
 				INFOPLIST_FILE = fmTemplateLayoutCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = www.kehaoran.com.fmTemplateLayoutCell;
+				PRODUCT_BUNDLE_IDENTIFIER = www.chinaamc.testapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
