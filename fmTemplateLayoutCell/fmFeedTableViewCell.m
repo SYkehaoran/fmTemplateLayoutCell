@@ -33,10 +33,6 @@
     }];
 }
 
-+ (id)loadView {
-    return [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([fmFeedTableViewCell class]) owner:nil options:nil].firstObject;
-}
-
 - (void)setEntity:(fmFeedEntity *)entity {
     _entity = entity;
     

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "fmFeedEntity.h"
 #import "fmFeedTableViewCell.h"
+#import "UITableView+FDTemplateLayoutCell.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic, strong) UITableView *tableview;
 @property(nonatomic, strong) NSMutableArray *feedEntityArray;
@@ -34,9 +35,12 @@
     self.tableview.frame = self.view.bounds;
     self.tableview.delegate = self;
     self.tableview.dataSource = self;
-    
+    [self registerNibWithClass:[fmFeedTableViewCell class]];
 }
-
+- (void)registerNibWithClass:(Class)class {
+    NSString *className = NSStringFromClass([class class]);
+    [self.tableview registerNib:[UINib nibWithNibName:className bundle:[NSBundle mainBundle ]] forCellReuseIdentifier:className];
+}
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [self.feedEntityArray[section] count];
 }
@@ -46,9 +50,16 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    fmFeedTableViewCell *cell = [fmFeedTableViewCell loadView];
+    fmFeedTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([fmFeedTableViewCell class])];
     cell.entity = self.feedEntityArray[indexPath.section][indexPath.row];
     return  cell;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return [tableView fd_heightForCellWithIdentifier:NSStringFromClass([fmFeedTableViewCell class]) cacheByIndexPath:indexPath  configuration:^(fmFeedTableViewCell *cell) {
+        cell.entity = self.feedEntityArray[indexPath.section][indexPath.row];
+        
+    }];
 }
 
 - (void)buildTestDataThen:(void (^)(void))then {

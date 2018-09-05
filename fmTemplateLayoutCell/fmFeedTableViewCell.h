@@ -11,5 +11,5 @@
 @interface fmFeedTableViewCell : UITableViewCell
 
 @property(nonatomic, strong) fmFeedEntity *entity;
-+ (id)loadView;
+
 @end
