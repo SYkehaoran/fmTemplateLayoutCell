@@ -24,6 +24,8 @@
 		A6C25A59213E8ECD00BF699D /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A54213E8ECD00BF699D /* UITableView+FDKeyedHeightCache.m */; };
 		A6C25A5A213E8ECD00BF699D /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A55213E8ECD00BF699D /* UITableView+FDTemplateLayoutCellDebug.m */; };
 		A6C25A5B213E8ECD00BF699D /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A56213E8ECD00BF699D /* UITableView+FDIndexPathHeightCache.m */; };
+		A6C25A5F2141080100BF699D /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25A5D2141080100BF699D /* ImageCollectionViewCell.m */; };
+		A6C25A602141080100BF699D /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6C25A5E2141080100BF699D /* ImageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,9 @@
 		A6C25A55213E8ECD00BF699D /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
 		A6C25A56213E8ECD00BF699D /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
 		A6C25A57213E8ECD00BF699D /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		A6C25A5C2141080100BF699D /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		A6C25A5D2141080100BF699D /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		A6C25A5E2141080100BF699D /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,16 +139,19 @@
 				A6C25A00213D22F100BF699D /* ViewController.m */,
 				A6C25A35213D339800BF699D /* fmFeedEntity.h */,
 				A6C25A36213D34AF00BF699D /* fmFeedEntity.m */,
-				A6C25A02213D22F100BF699D /* Main.storyboard */,
-				A6C25A07213D22F300BF699D /* LaunchScreen.storyboard */,
-				A6C25A38213D376D00BF699D /* Images.xcassets */,
-				A6C25A0A213D22F300BF699D /* Info.plist */,
-				A6C25A0B213D22F300BF699D /* main.m */,
 				A6C25A2E213D303400BF699D /* fmFeedTableViewCell.h */,
 				A6C25A2F213D303400BF699D /* fmFeedTableViewCell.m */,
 				A6C25A31213D305C00BF699D /* fmFeedTableViewCell.xib */,
 				A6C25A3D213E264900BF699D /* UIView+fm_aligmentRectInsets.h */,
 				A6C25A3E213E264900BF699D /* UIView+fm_aligmentRectInsets.m */,
+				A6C25A5C2141080100BF699D /* ImageCollectionViewCell.h */,
+				A6C25A5D2141080100BF699D /* ImageCollectionViewCell.m */,
+				A6C25A5E2141080100BF699D /* ImageCollectionViewCell.xib */,
+				A6C25A02213D22F100BF699D /* Main.storyboard */,
+				A6C25A07213D22F300BF699D /* LaunchScreen.storyboard */,
+				A6C25A38213D376D00BF699D /* Images.xcassets */,
+				A6C25A0A213D22F300BF699D /* Info.plist */,
+				A6C25A0B213D22F300BF699D /* main.m */,
 			);
 			path = fmTemplateLayoutCell;
 			sourceTree = "<group>";
@@ -288,6 +296,7 @@
 				A6C25A39213D376D00BF699D /* Images.xcassets in Resources */,
 				A6C25A32213D305C00BF699D /* fmFeedTableViewCell.xib in Resources */,
 				A6C25A34213D334B00BF699D /* data.json in Resources */,
+				A6C25A602141080100BF699D /* ImageCollectionViewCell.xib in Resources */,
 				A6C25A04213D22F100BF699D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +330,7 @@
 				A6C25A0C213D22F300BF699D /* main.m in Sources */,
 				A6C25A30213D303400BF699D /* fmFeedTableViewCell.m in Sources */,
 				A6C259FE213D22F100BF699D /* AppDelegate.m in Sources */,
+				A6C25A5F2141080100BF699D /* ImageCollectionViewCell.m in Sources */,
 				A6C25A3F213E264900BF699D /* UIView+fm_aligmentRectInsets.m in Sources */,
 				A6C25A37213D34AF00BF699D /* fmFeedEntity.m in Sources */,
 			);
